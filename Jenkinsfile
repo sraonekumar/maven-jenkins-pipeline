@@ -29,7 +29,7 @@ pipeline {
            sh "mvn clean verify sonar:sonar \
   -Dsonar.projectKey=sravan-maven-project \
   -Dsonar.host.url=http://23.100.43.124:9000 \
-  -Dsonar.login=sqp_071ea02df30dc600e933b9061448388107fd6404" 
+  -Dsonar.login=sqp_133fe78ffb46fa42c09df873b07ef8ec223d7302" 
                 }
            timeout(time: 2, unit: 'MINUTES') {
                       script {
